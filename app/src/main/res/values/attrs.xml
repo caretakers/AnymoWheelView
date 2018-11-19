@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WheelView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textPadding" format="dimension"/>
+        <attr name="textMaxScale" format="float"/>
+        <attr name="isRecycle" format="boolean"/>
+        <attr name="maxShowNum" format="integer"/>
+    </declare-styleable>
+</resources>
