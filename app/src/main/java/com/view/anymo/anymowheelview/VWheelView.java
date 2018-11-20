@@ -18,20 +18,20 @@ import android.widget.Scroller;
 import java.util.ArrayList;
 
 /**
- * 滚轮视图，可设置是否循环模式，实现OnScrollChangedListener接口以监听滚轮变化
+ * Created by Anymo on 2018/11/16.
  */
 public class VWheelView extends View {
 
     private static final String TAG = "EasyPickerView";
     // 文字大小
     private int textSize;
-    // 颜色，默认Color.BLACK
+    // 颜色
     private int textColor;
-    // 文字之间的间隔，默认10dp
+    // 文字之间的间隔
     private int textPadding;
-    // 文字最大放大比例，默认2.0f
+    // 文字最大放大比例
     private float textMaxScale;
-    // 是否循环模式，默认是
+    // 是否循环
     private boolean isRecycle;
     // 正常状态下最多显示几个文字，默认3（偶数时，边缘的文字会截断）
     private int maxShowNum;
